@@ -63,14 +63,22 @@ Weather data changes over time, so RNN helps the system learn patterns from prev
 
 ---
 
-## 3️⃣ MNIST Deep Learning Model
+## 3️⃣ Long Short-Term Memory (LSTM)
 
-MNIST was used as an experimental Deep Learning implementation to understand neural network training and evaluation.
+LSTM is an advanced type of Recurrent Neural Network (RNN) designed to learn long-term dependencies in sequential data.
 
-### 📌 Purpose
-- Practice building neural networks
-- Understand model optimization
-- Test model performance
+### ✅ Why LSTM?
+Weather and environmental data are time-dependent, and LSTM performs better than traditional RNNs in remembering long-term patterns.
+
+### 📌 Used For
+- Weather forecasting
+- Time-series prediction
+- Learning long-term environmental patterns
+
+### ⚡ Features
+- Handles long sequences efficiently
+- Reduces vanishing gradient problems
+- Improves prediction accuracy
 
 ---
 
